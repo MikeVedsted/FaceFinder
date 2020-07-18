@@ -4,11 +4,10 @@ html, body {
 }
 
 body {
-  margin: 0;
   font-family:"Courier New", Courier, monospace, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(45deg, yellow 0%, green 50%, yellow 100%);
+  background: linear-gradient(90deg, yellow 0%, green 50%, yellow 100%);
 }
 
 code {
