@@ -1,5 +1,6 @@
 {
   "name": "facefinder",
+  "homepage": "https://mikevedsted.github.io/FaceFinder/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,7 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "start": "nodemon nodeserver.js",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
@@ -52,6 +53,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MikeVedsted/FaceFinder/issues"
-  },
-  "homepage": "https://github.com/MikeVedsted/FaceFinder"
+  }
 }
